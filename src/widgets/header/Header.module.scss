@@ -1,0 +1,131 @@
+@import "@app/styles/variables";
+
+.header {
+  position: sticky;
+  left: 0;
+  top: 0;
+  padding: 15px 0;
+  width: 100%;
+  background: $color-white;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    .header_start {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+
+      .button_logo {
+        width: 75px;
+        height: 39px;
+        padding: 6px 8px 7px 7px;
+        border-radius: 20px;
+      }
+
+      .li_nav {
+        padding: 10px 17px;
+        text-align: center;
+        cursor: pointer;
+        list-style: none;
+
+        .link {
+          height: 38px;
+          color: $color-blue;
+          text-align: center;
+
+          font-size: 16px;
+          font-weight: 600;
+          text-decoration: none;
+        }
+
+        &:hover {
+          background: rgba(0, 38, 255, 0.13);
+          outline: 1px solid $color-blue;
+          border-radius: 10px;
+          color: $color-blue;
+        }
+      }
+    }
+
+    .header_end {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      .icons {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        .search_input {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          width: 210px;
+          height: 37px;
+          border-radius: 6px;
+          background: #f2f5ff;
+
+          input {
+            border: none;
+            outline: none;
+            background: #f2f5ff;
+          }
+        }
+
+        .search_input_ky {
+          width: 140px;
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          position: relative;
+
+          .button_icon_ky {
+            position: absolute;
+            top: 3px;
+            left: 0px;
+          }
+
+          input {
+            width: 116px;
+          }
+        }
+
+        .drop_down_tag {
+          position: relative;
+          .drop_down {
+            position: absolute;
+            top: 40px;
+            left: -30px;
+          }
+        }
+
+        .button_icon {
+          background: none;
+          border: none;
+          width: 31px;
+          height: 31px;
+          position: relative;
+
+          &:hover {
+            background: rgba(0, 38, 255, 0.13);
+
+            outline: 1px solid $color-blue;
+            border-radius: 10px;
+          }
+
+          p {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+          }
+        }
+      }
+
+      .buttons {
+        display: flex;
+        gap: 5px;
+      }
+    }
+  }
+}

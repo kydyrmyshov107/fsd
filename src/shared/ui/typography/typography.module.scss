@@ -1,0 +1,84 @@
+@import "@app/styles/variables";
+
+// Base styles
+.typography {
+  margin: 0;
+  line-height: 1.5;
+}
+
+// Variants
+.h1 {
+  font-size: 31px;
+  font-weight: bold;
+}
+
+.h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.body {
+  font-size: 20px;
+}
+
+.smallBody {
+  font-size: 16px;
+}
+
+.extraSmallBody {
+  font-size: 13px;
+}
+.description {
+  font-size: 10px;
+}
+
+// Weight modifiers
+.bold {
+  font-weight: 700;
+}
+.normal {
+  font-weight: 400;
+}
+.light {
+  font-weight: 300;
+}
+
+// Color modifiers
+.dark {
+  color: $color-dark;
+}
+.blue {
+  color: $color-blue;
+}
+.white {
+  color: $color-white;
+}
+.lightgray {
+  color: $color-lightgray;
+}
+.secondary {
+  color: $color-secondary;
+}
+.success {
+  color: $color-success;
+}
+.danger {
+  color: $color-danger;
+}
+.warning {
+  color: $color-warning;
+}
+
+// Utility classes
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// Media queries for responsive typography

@@ -1,0 +1,10 @@
+export { default as IconActiveDot } from "@shared/ui/icons/IconActiveDot";
+export { default as IconDefaultDot } from "@shared/ui/icons/IconDefaultDot";
+export { default as IconActiveStar } from "@shared/ui/icons/IconActiveStar";
+export { default as IconDefaultStar } from "@shared/ui/icons/IconDefaultStar";
+export { default as IconLanguage } from "@shared/ui/icons/IconLanguage";
+export { default as IconLineBarChart } from "@shared/ui/icons/IconLineBarChart";
+export { default as IconLock } from "@shared/ui/icons/IconLock";
+export { default as IconMenu } from "@shared/ui/icons/IconMenu";
+export { default as IconSearch } from "@shared/ui/icons/IconSearch";
+export { default as IconGeeks } from "@shared/ui/icons/IconGeeks";

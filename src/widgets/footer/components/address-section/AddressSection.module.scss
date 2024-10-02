@@ -1,0 +1,30 @@
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    list-style: none;
+
+    &_list {
+      color: $color-white;
+      font-size: 18px;
+      font-weight: 400;
+      font-family: "inter";
+      line-height: 27px;
+      letter-spacing: 1px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  &__iframe {
+    width: 580px;
+    height: 334px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}

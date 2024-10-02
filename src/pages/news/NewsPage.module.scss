@@ -1,0 +1,30 @@
+@import "@app/styles/variables";
+
+.newsPage {
+}
+
+.slide_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slide_text {
+  padding-left: 20px;
+}
+
+.slide_text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.slide_text p {
+  font-size: 16px;
+  color: #666;
+}
+
+.slide_text a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &_icon {
+    width: 31px;
+    height: 31px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background: $color-white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  &_icon:hover {
+    transform: scale(1.2);
+  }
+}

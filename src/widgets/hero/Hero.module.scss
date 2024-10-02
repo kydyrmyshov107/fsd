@@ -1,0 +1,49 @@
+@import "@app/styles/variables";
+@import "@app/styles/mixin.scss";
+
+.hero {
+  width: 100%;
+  margin: 0 auto;
+  padding: 72px 0;
+  &__container {
+    @include flexbox(center, center);
+    gap: 161px;
+    &__text_container {
+      @include flexbox(space-between, flex-start, column);
+      gap: 45px;
+      &__title_hero {
+        font-size: 28px;
+        font-weight: 600;
+        margin-left: 49px;
+      }
+      &__texts {
+        @include flexbox(space-between, flex-start, column);
+        gap: 45px;
+        width: 449px;
+        &_info {
+          @include flexbox(flex-start, center);
+          gap: 24px;
+          &_icon {
+            @include flexbox(center, center);
+            box-sizing: border-box;
+            border: 0.5px solid rgb(20, 61, 234);
+            border-radius: 5px;
+            background: rgb(235, 239, 252);
+            width: 29px;
+            height: 29px;
+          }
+          &:nth-child(3) &_icon {
+            padding: 5px;
+          }
+          &_text {
+            font-weight: 500;
+          }
+        }
+        &__btn_join {
+          border-radius: 8px;
+          margin-left: 49px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "footer": {
+    "f_platform": "About our platform",
+    "f_innovators": "Innovators",
+    "f_investors": "Investors",
+    "f_experts": "Experts",
+    "f_contacts": "Our contacts",
+    "f_opportunities": "Opportunities",
+    "f_marketplace": "Intellectual Property Marketplace",
+    "f_transfer": "Technology Transfer",
+    "f_address": "Our address",
+    "f_street": "62 Moskovskaya St., Bishkek",
+    "f_personal": "Personal Data Processing Policy",
+    "f_consent": "Consent to the processing of personal data"
+  },
+  "mainPage": {
+    "Hero": {
+      "heroTitle": "future of innovation",
+      "businessIdea": "Access to quality and proven business ideas",
+      "newTechnology": "Supporting innovators and development of new technologies",
+      "infoStorage": "Reliable information storage",
+      "join": "Join"
+    },
+    "Platform": {
+      "platform": "A results-driven platform for",
+      "platformTitle": "Innovators, Investors, Experts",
+      "toPercentage1": "150+",
+      "toPercentage2": "to 75%",
+      "toPercentage3": "50+",
+      "platformInvestmens": "Projects on the platform found investments",
+      "increasedIncome": "Investors increased their income",
+      "expertEgreements": "Experts entered into profitable cooperation agreements"
+    }
+  },
+  "header": {
+    "investors": "Investors",
+    "innovators": "Innovators",
+    "experts": "Experts",
+    "contacts": "Contacts",
+    "news": "News"
+  },
+  "languages": {
+    "ru": "Russian",
+    "ky": "Kyrgyz",
+    "en": "English"
+  }
+}

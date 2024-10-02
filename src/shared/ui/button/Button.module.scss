@@ -1,0 +1,47 @@
+@import "@app/styles/variables";
+
+.button {
+  padding: 10px;
+  border: 1px solid $color-blue;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &.primary {
+    background-color: $color-blue;
+    color: $color-white;
+  }
+
+  &.secondary {
+    background-color: $color-white;
+    color: $color-blue;
+
+    &:hover {
+      background-color: $color-blue;
+      color: $color-white;
+    }
+  }
+
+  &.fullWidth {
+    width: 100%;
+  }
+
+  &.rounded {
+    border-radius: 5px;
+  }
+
+  /* === Button Sizes === */
+  &.long {
+    padding-left: 84px;
+    padding-right: 84px;
+  }
+
+  &.medium {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  &.short {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

@@ -1,0 +1,47 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  &__title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 1px;
+  }
+
+  &__item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    &__phone {
+      color: $color-white;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: "inter";
+      line-height: 25px;
+      letter-spacing: 1px;
+      text-decoration-line: none;
+    }
+
+    &__list {
+      width: 250px;
+      color: $color-white;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: "inter";
+      line-height: 27px;
+      letter-spacing: 1px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    &__link {
+      color: $color-white;
+      text-decoration: none;
+    }
+  }
+}

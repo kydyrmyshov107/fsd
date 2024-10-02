@@ -1,0 +1,22 @@
+@import "@app/styles/variables";
+@import "@app/styles/mixin.scss";
+
+.stats_box {
+  @include flexbox(flex-start, center, column);
+  gap: 27px;
+  border-radius: 20px;
+  width: 400px;
+  height: 190px;
+  background: white;
+  padding: 20px 45px;
+  transition: 0.3s;
+
+  &__number {
+    font-weight: 600;
+    font-size: 31px;
+  }
+
+  &__description {
+    font-weight: 500;
+  }
+}

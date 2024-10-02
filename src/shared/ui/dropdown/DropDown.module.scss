@@ -1,0 +1,36 @@
+@import "@app/styles/variables";
+
+.button_icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown_list {
+  position: absolute;
+  background-color: #f9f9f9;
+  color: $color-blue;
+  font-size: 16px;
+  font-weight: 400;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown:hover .dropdown_list {
+  display: block;
+}
+
+.dropdown_item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown_item:hover {
+  background-color: #f1f1f1;
+}

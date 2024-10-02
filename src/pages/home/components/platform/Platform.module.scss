@@ -1,0 +1,22 @@
+@import "@app/styles/variables";
+@import "@app/styles/mixin.scss";
+
+.platform {
+  background: $color-lightgray;
+  text-align: center;
+  padding: 60px 0 52px 0;
+  &__title {
+    text-align: start;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 65px;
+    color: #000;
+  }
+  &__title_blue {
+    color: $color-blue;
+  }
+  &__stats_container {
+    @include flexbox(space-between, center);
+    gap: 20px;
+  }
+}
